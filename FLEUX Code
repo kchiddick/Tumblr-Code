@@ -1,6 +1,5 @@
 <!--
 Fleux Theme - 1.1
-http://fleux.elletricity.com
 Theme by Kiara Chiddick
 -->
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
@@ -43,7 +42,7 @@ Theme by Kiara Chiddick
 <meta name="color:Tag color" content="#bbbbbb"/>
 <meta name="color:Text color" content="#444444"/>
 <meta name="color:Popup menu color" content="#000000"/>
-<meta name="color:Twitter color" content="#86B1D1"/>
+<meta name="color:Twitter color" content="##69E396"/>
 <meta name="if:Transitions" content="1"/>
 <meta name="if:White post controls" content="0"/>
 <meta name="if:Black post controls" content="0"/>
@@ -67,7 +66,7 @@ Theme by Kiara Chiddick
 <meta name="google-site-verification" content="{text:Google Site Verification}"/>{/block:ifGoogleSiteVerification}
 <style type="text/css">{block:ifTransitions}
 a, a:link, a:visited, .photo_frame a img, .link .post-title a img, .pop, .pop li:first-child a:before, .meta a svg, .photo-grid a img { -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; transition: all .3s ease-in-out }
-.bar-icon { -webkit-transition: -webkit-transform .15s linear; -o-transition: -o-transform .15s linear; -ms-transition: -ms-transform .15s linear; -moz-transition: -moz-transform .15s linear; transition: transform .15s linear }
+.bar-icon { -webkit-transition: -webkit-transform .16s linear; -o-transition: -o-transform .16s linear; -ms-transition: -ms-transform .16s linear; -moz-transition: -moz-transform .16s linear; transition: transform .16s linear }
 .bar-icon:nth-child(2) { -webkit-transition: opacity .1s linear; -o-transition: opacity .1s linear; -ms-transition: opacity .1s linear; -moz-transition: opacity .1s linear; transition: opacity .1s linear }{/block:ifTransitions}
 body, html { background: {BackgroundColor} }
 body { font-family: {font:Body font}, "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: {select:Text size}rem; color: {color:Text color} }
@@ -192,7 +191,7 @@ a:active, a:focus, a:hover { color: {color:Secondary accent color} }
 						<li><a href="/tagged/{text:Custom Tag 4}">#{text:Custom Tag 4}</a></li>{/block:ifCustomTag4}{block:ifCustomTag5}
 						<li><a href="/tagged/{text:Custom Tag 5}">#{text:Custom Tag 5}</a></li>{/block:ifCustomTag5}{block:ifCustomTag6}
 						<li><a href="/tagged/{text:Custom Tag 6}">#{text:Custom Tag 6}</a></li>{/block:ifCustomTag6}{block:ifCustomTag7}
-						<li><a href="/tagged/{text:Custom Tag 7}">#{text:Custom Tag 7}</a></li>{/block:ifCustomTag7}
+						<li><a href="/tagged/{text:Custom Tag 7}">#{text:Custom Tag 7}</a></li>{/block:ifCustomTag7}{block:ifCustonTag1}
 					</ul>
 				</div>
 			</li>{/block:ifShowCustomTagMenu}{block:AskEnabled}{block:ifAskBoxPopup}
